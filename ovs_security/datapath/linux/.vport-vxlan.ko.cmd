@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Downloads/ovs_security/datapath/linux/vport-vxlan.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/Downloads/ovs_security/datapath/linux/vport-vxlan.ko /home/ubuntu/Downloads/ovs_security/datapath/linux/vport-vxlan.o /home/ubuntu/Downloads/ovs_security/datapath/linux/vport-vxlan.mod.o ;  true
